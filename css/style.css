@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+    border-radius: 100px; /* sätter du border-radius till hälften av width värdet, så får du en rund bild*/
+    float: left; /* bilden till vänster om texten */
+    margin-right: 50px /* flyttar texten till höger om bilden */;
+  
+  }
+
+  p {
+    font-weight: bold; /* nu kommer alla p element att få fet stil. För att undvika detta
+    så måste du tilldela elementet en klass för att kunna separera den från de andra elementen när du 
+    använder css. Som i vårt fall, vi vill inte applicera fet text på alla våra <p> element, så därför 
+    gör vi en klass på de <p> elementen vi vill påverka och på så sätt berörs inte andra p element som inte
+    ingår i den klassen */
+    
+  }
