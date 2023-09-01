@@ -1,4 +1,4 @@
-.subscribe-button{
+.subscribe-button {
   background-color: rgb(200, 0, 0);
   color: white; /* ändrar texten till vit*/
   border: none; /*tar bort kanterna runt knappen*/
@@ -6,12 +6,31 @@
   width: 105px;
   border-radius: 2px; /* gör hörnen på kanterna runda */
   cursor: pointer; /*gör att muspekaren ändrar skepnad till en hand*/
-
+  margin-right: 8px;
 }
 
 .join-button {
   background-color: white;
   border-color: rgb(41, 118, 211);
   border-style: solid;
-  border-width: 1px;
+  border-width: 1px; /* justerar tjockleken på ramen/kanterna*/
+  color: rgb(41, 118, 211);
+  height: 36px;
+  width: 62;
+  border-radius: 2px;
+  cursor: pointer;
 }
+.tweet-button {
+  background-color: rgb(11, 185, 216);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold; /*Denna gör att texten blir tjockare*/
+  font-size: 15px; /*justerar storleken på texten*/
+  cursor: pointer;
+  margin-left:8px ;
+}
+
+
