@@ -1,0 +1,17 @@
+.subscribe-button{
+  background-color: rgb(200, 0, 0);
+  color: white; /* ändrar texten till vit*/
+  border: none; /*tar bort kanterna runt knappen*/
+  height: 36px;
+  width: 105px;
+  border-radius: 2px; /* gör hörnen på kanterna runda */
+  cursor: pointer; /*gör att muspekaren ändrar skepnad till en hand*/
+
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+}
