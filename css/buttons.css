@@ -37,8 +37,8 @@
   width: 62;
   border-radius: 2px;
   cursor: pointer;
-  transition: background-color 1s,
-  color 1s; /*det första värdet vi ville
+  transition: background-color 0.15s,
+  color 0.15s; /*det första värdet vi ville
   fade:a är ju bakgrunds färgen då den inverterades på just denna knappen
   och då är det inte opacity värdet vi skriver in så som vi gjorde
   på subscribe knappen. */ 
@@ -66,12 +66,13 @@
   font-size: 15px; /*justerar storleken på texten*/
   cursor: pointer;
   margin-left:8px ;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.2s;
+ 
 
 }
 
-.tweet-button {
-  
+.tweet-button:hover {
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 
