@@ -1,5 +1,5 @@
 .subscribe-button {
-  background-color: rgb(200, 0, 0);
+  background-color: rgb(204, 0, 0);
   color: white; /* ändrar texten till vit*/
   border: none; /*tar bort kanterna runt knappen*/
   border-radius: 2px; /* gör hörnen på kanterna runda */
@@ -76,12 +76,13 @@
   cursor: pointer;
   margin-left:8px ;
   transition: box-shadow 0.2s;
- 
+  padding-top: 10px;
+  padding-bottom: 10px;
+ padding-left: 16px;
+ padding-right: 16px;
 
 }
 
 .tweet-button:hover {
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
-
-
